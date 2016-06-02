@@ -1,0 +1,20 @@
+﻿Build started 5/27/2016 12:06:40 PM.
+     1>Project "C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\EngineCore\EngineCore.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\\" /Fd"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp src\graphics\Window.cpp
+         Window.cpp
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\graphics\window.cpp(48): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\EngineCore.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\EngineCore.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\EngineCore.lib" /MACHINE:X86 C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\Main.obj
+         C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\Window.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\vc120.pdb'; linking object as if no debug info
+         EngineCore.vcxproj -> C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\EngineCore.exe
+     1>Done Building Project "C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\EngineCore\EngineCore.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.64
