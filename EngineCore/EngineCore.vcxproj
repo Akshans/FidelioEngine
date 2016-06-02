@@ -78,12 +78,10 @@
     <ClInclude Include="Dependencies\GLFW\include\GLFW\glfw3native.h" />
     <ClInclude Include="EngineCore\Main.h" />
     <ClInclude Include="EngineCore\src\graphics\Window.h" />
-    <ClInclude Include="src\graphics\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineCore\Main.cpp" />
     <ClCompile Include="EngineCore\src\graphics\Window.cpp" />
-    <ClCompile Include="src\graphics\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="Dependencies\GLEW\lib\glew32.lib" />

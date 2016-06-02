@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\graphics\Window.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="EngineCore\Main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -41,9 +38,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\graphics\Window.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="EngineCore\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
