@@ -2,7 +2,8 @@
 #include "src\graphics\Window.h"
 int main()
 {
-	/*using namespace engineCore;
+	//If you see this, then you're a real nigger
+	using namespace engineCore;
 	using namespace graphics;
 	Window window("Fidelio",800,600);
 	glClearColor(0.2f, 0.3f, 0.8f, 1.0f);
@@ -16,5 +17,5 @@ int main()
 		glEnd();
 		window.update();
 	}
-	return 0;*/
+	return 0;
 }
