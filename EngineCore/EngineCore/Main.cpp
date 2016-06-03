@@ -1,5 +1,6 @@
 #include <iostream>
-#include "src\graphics\Window.h"
+#include "src/graphics/Window.h"
+#include "srv/maths/maths.h"
 int main()
 {
 	//If you see this, then you're a real nigger

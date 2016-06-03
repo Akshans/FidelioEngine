@@ -36,12 +36,33 @@
     <ClInclude Include="EngineCore\src\graphics\Window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EngineCore\src\Maths\Vec2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore\src\Maths\Vec4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore\src\Maths\Vec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore\src\Maths\maths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineCore\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EngineCore\src\graphics\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCore\src\Maths\vec4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCore\src\Maths\vec3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCore\src\Maths\vec2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
