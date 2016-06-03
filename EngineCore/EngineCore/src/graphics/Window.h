@@ -4,8 +4,8 @@
 #include <iostream> 
 namespace engineCore{namespace graphics{
 
-#define MAX_KEYS 1024;
-#define MAX_BUTTONS 32;
+#define MAX_KEYS 1024
+#define MAX_BUTTONS 32
 
 	class Window
 	{
@@ -22,6 +22,9 @@ namespace engineCore{namespace graphics{
 	public:
 		Window(const char *name, int width, int height);
 		~Window();
+		static bool isKeyPressed(int keycode);
+		static bool isButtonPressed(int buttoncode);
+		static void getMousePosition(double &x, double &y);
 		void clear() const;
 		void update();
 		bool closed() const;
@@ -31,6 +34,8 @@ namespace engineCore{namespace graphics{
 	private:
 		bool init();
 		friend static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods);
+		friend static void mouse_button_callback(GLFWwindow* window, int button, int action, int mods);
+		friend static void cursor_pos_callback(GLFWwindow* window, double xpos, double ypos);
 	};
 
 
