@@ -1,26 +1,26 @@
-﻿Build started 6/3/2016 1:52:17 AM.
+﻿Build started 6/5/2016 2:02:03 PM.
      1>Project "C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\EngineCore.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\\" /Fd"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EngineCore\Main.cpp EngineCore\src\graphics\Window.cpp
-         Window.cpp
-     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\graphics\window.cpp(92): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\\" /Fd"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EngineCore\src\Maths\mat4.cpp EngineCore\src\Maths\vec2.cpp EngineCore\src\Maths\vec3.cpp EngineCore\src\Maths\vec4.cpp
+         vec4.cpp
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\maths_func.h(8): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\vec4.cpp(104): error C2084: function 'bool engineCore::maths::vec4::operator ==(const engineCore::maths::vec4 &)' already has a body
+                 c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\vec4.h(23) : see previous definition of '=='
+         vec3.cpp
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\maths_func.h(8): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\vec3.cpp(99): error C2084: function 'bool engineCore::maths::vec3::operator ==(const engineCore::maths::vec3 &)' already has a body
+                 c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\vec3.h(23) : see previous definition of '=='
+         vec2.cpp
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\maths_func.h(8): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\vec2.cpp(95): error C2084: function 'bool engineCore::maths::vec2::operator ==(const engineCore::maths::vec2 &)' already has a body
+                 c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\vec2.h(23) : see previous definition of '=='
+         mat4.cpp
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\maths_func.h(8): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\mat4.cpp(49): warning C4172: returning address of local variable or temporary
+     1>c:\users\ajay\desktop\fidelio\engine\fidelioengine\enginecore\enginecore\src\maths\mat4.cpp(80): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
          Generating Code...
-         Compiling...
-         Main.cpp
-         Generating Code...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\EngineCore.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\EngineCore.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\EngineCore.lib" /MACHINE:X86 C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\Main.obj
-         C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\Intermediates\Window.obj
-         Dependencies\GLEW\lib\glew32.lib
-         Dependencies\GLEW\lib\glew32s.lib
-         "Dependencies\GLFW\lib-vc2013\glfw3.lib"
-         "Dependencies\GLFW\lib-vc2013\glfw3dll.lib"
-     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\vc120.pdb'; linking object as if no debug info
-         EngineCore.vcxproj -> C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\bin\Debug\EngineCore.exe
-     1>Done Building Project "C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\EngineCore.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Ajay\Desktop\Fidelio\Engine\FidelioEngine\EngineCore\EngineCore.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:02.15
+Time Elapsed 00:00:01.41

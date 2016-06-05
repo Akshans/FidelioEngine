@@ -1,6 +1,6 @@
 #include "maths.h"
  
-namespace sparky {
+namespace engineCore {
 	namespace maths {
 		vec3::vec3()
 		{
@@ -102,7 +102,7 @@ namespace sparky {
 
 		std::ostream& operator<<(std::ostream& stream, const vec3& vector)
 		{
-			stream << "vec3: (" << vector.x << "," << vector.y << "," << vector.z ")";
+			stream << "vec3: (" << vector.x << "," << vector.y << "," << vector.z << ")";
 			return stream;
 		}
 

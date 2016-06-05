@@ -1,6 +1,6 @@
 #include "maths.h"
  
-namespace sparky {
+namespace engineCore {
 	namespace maths {
 		vec2::vec2()
 		{

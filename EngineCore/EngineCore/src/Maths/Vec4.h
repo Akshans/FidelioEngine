@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace sparky {
+namespace engineCore {
 	namespace maths {
 		struct vec4
 		{
@@ -21,7 +21,7 @@ namespace sparky {
 			vec4& operator/=(const vec4& other);
 			
 			bool operator==(const vec4& other);
-			bool operator==(const vec4& other);
+			//bool operator==(const vec4& other);
 
 			friend std::ostream& operator<<(std::ostream& stream, const vec4& vector);
 			friend std::ostream& operator<<(std::ostream& stream, const vec4& vector);

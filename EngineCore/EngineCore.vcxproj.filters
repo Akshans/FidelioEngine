@@ -48,6 +48,12 @@
     <ClInclude Include="EngineCore\src\Maths\maths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EngineCore\src\Maths\mat4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore\src\Maths\maths_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EngineCore\Main.cpp">
@@ -63,6 +69,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EngineCore\src\Maths\vec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCore\src\Maths\mat4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
